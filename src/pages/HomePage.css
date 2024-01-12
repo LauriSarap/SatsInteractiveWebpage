@@ -1,0 +1,24 @@
+.homepage {
+    text-align: center;
+    color: #333;
+}
+
+.hero {
+    padding: 50px 20px;
+    background-color: #eee; /* A light background for the hero section */
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+.latest-work h3 {
+    font-size: 28px;
+    margin: 40px 0 20px;
+}
