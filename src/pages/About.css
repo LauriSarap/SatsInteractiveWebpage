@@ -1,0 +1,41 @@
+.team-container {
+    text-align: center;
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px;
+}
+
+.team-container h2 {
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap as necessary */
+}
+
+.team-member {
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 200px; /* Adjust width as necessary */
+    padding: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    border-radius: 50%; /* Circular images */
+    margin-bottom: 10px;
+}
+
+.team-member h3 {
+    margin: 0;
+    color: #333; /* Dark text for names */
+}
+
+.team-member p {
+    margin: 0;
+    color: #777; /* Lighter text for role */
+}
