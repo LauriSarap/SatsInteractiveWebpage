@@ -1,11 +1,15 @@
 import React from 'react';
 import './About.css';
+import atsFace from '../assets/images/ats_face.jpg';
+import kaurFace from '../assets/images/kaur_face.jpeg';
+import laurFace from '../assets/images/laur_face.jpg';
+import lauriFace from '../assets/images/lauri_face.jpg';
 
 const teamMembers = [
-    { name: 'Lauri Sarap', role: 'Technical vision', image: 'src/assets/images/lauri_face.jpg' },
-    { name: 'Ats Kaup', role: 'The entire art department', image: 'src/assets/images/ats_face.jpg' },
-    { name: 'Kaur Vadi', role: 'Technical implementation', image: 'src/assets/images/kaur_face.jpg' },
-    { name: 'Laur Saks', role: 'Technical solution', image: 'src/assets/images/laur_face.jpg' }
+    { name: 'Lauri Sarap', role: 'Technical vision', image: lauriFace },
+    { name: 'Ats Kaup', role: 'The entire art department', image: atsFace },
+    { name: 'Kaur Vadi', role: 'Technical implementation', image: kaurFace },
+    { name: 'Laur Saks', role: 'Technical solution', image: laurFace }
 ];
 
 const About = () => {
